@@ -1,0 +1,13 @@
+After 2 days of reading docs of techstack and gaining knowledge on how it all comes together 
+
+Day 1(03-08-2024): [Mostly involved me learning backend programming and coding backend elements for the first time.]
+-Coded backend ("server") elements only.
+-Created a User Model.
+-Coded two Controllers for Registerting a new user and Logging in of existing user.
+-Made Routes for the same to be implemented. 
+-Tested Created Controllers using "Postman app" successfully.
+
+Day 2(04-08-2024): [Looked up some chat app designs online and set a basic structure for Front-End. Colour/theme of the app can change later, maybe. Continuing to work on backend for Login and Register Page ('post' functionalities) until EOD]
+-Coded Login and Register pages.
+-Set a basic layout of Main Chat Page, with clearly defined spaces for Sidebar, Users and Currently active user chat.
+-
