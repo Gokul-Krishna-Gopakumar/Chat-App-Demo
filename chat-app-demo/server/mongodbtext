@@ -1,0 +1,4 @@
+mongodb+srv://gokul:gokul123@cluster0.a7vhlxn.mongodb.net/
+
+
+mongodb+srv://gokul:gokul123@cluster0.a7vhlxn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
