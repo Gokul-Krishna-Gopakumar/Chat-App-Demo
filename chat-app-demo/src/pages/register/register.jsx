@@ -1,6 +1,10 @@
+import { useContext } from "react";
 import Navbar from "../../components/navbar";
+import { AuthContext } from "../../context/AuthContext";
 
 const Register = () => {
+  const { registerInfo, updateRegisterInfo } = useContext(AuthContext);
+
   return (
     <div>
       <Navbar />
@@ -10,24 +14,37 @@ const Register = () => {
           <h1 className=" font-bold my-8 text-yellow-200 text-2xl mx-auto">
             Register
           </h1>
+
           <div className=" text-white flex flex-col my-2 w-80">
             Name
             <input
               className="text-black bg-yellow-200 border-solid border-2 border-slate-900 rounded-lg my-2 px-2"
               type="text"
               required
+              onChange={(e) =>
+                updateRegisterInfo({ ...registerInfo, name: e.target.value })
+              }
             />
             Email address
             <input
               className=" text-black bg-yellow-200 border-solid border-2 border-slate-900 rounded-lg my-2 px-2"
               type="email"
               required
+              onChange={(e) =>
+                updateRegisterInfo({ ...registerInfo, email: e.target.value })
+              }
             />
             Password
             <input
               className="text-black bg-yellow-200 border-solid border-2 border-slate-900 rounded-lg my-2 px-2"
               type="text"
               required
+              onChange={(e) =>
+                updateRegisterInfo({
+                  ...registerInfo,
+                  password: e.target.value,
+                })
+              }
             />
           </div>
 
