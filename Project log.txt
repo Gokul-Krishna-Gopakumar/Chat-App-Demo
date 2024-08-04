@@ -1,4 +1,5 @@
 After 2 days of reading docs of techstack and gaining knowledge on how it all comes together 
+(PS: on 04-08-2024, I had an issue with rebasing and pushing new changes and that has led to a weird file structure right now. WIll sort it out once I've done a bit more progress with the proejct)
 
 Day 1(03-08-2024): [Mostly involved me learning backend programming and coding backend elements for the first time.]
 -Coded backend ("server") elements only.
