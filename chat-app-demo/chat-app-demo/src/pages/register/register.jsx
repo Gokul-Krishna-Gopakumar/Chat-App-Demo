@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Navbar from "../../components/navbar";
-import { AuthContext } from "../../context/AuthContext";
+import { AuthContext } from "../../../../src/context/AuthContext";
 
 const Register = () => {
   const { registerInfo, updateRegisterInfo } = useContext(AuthContext);
