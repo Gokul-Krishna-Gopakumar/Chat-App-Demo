@@ -1,12 +1,19 @@
 import { useContext } from "react";
 import Navbar from "../../components/navbar";
 import { AuthContext } from "../../../../src/context/AuthContext";
+import { Alert } from "react-alert";
 
 const Register = () => {
-  const { registerInfo, updateRegisterInfo } = useContext(AuthContext);
+  const {
+    registerInfo,
+    updateRegisterInfo,
+    registerUser,
+    registerError,
+    isRegisterLoading,
+  } = useContext(AuthContext);
 
   return (
-    <div>
+    <div onSubmit={registerUser}>
       <Navbar />
 
       <div className=" bg-emerald-950 flex flex-col">
@@ -64,6 +71,9 @@ const Register = () => {
               </a>
               here
             </p>
+          </div>
+          <div className="bg-white rounded-xl">
+            {registerError?.error && alert(registerError?.message)}
           </div>
         </div>
       </div>
