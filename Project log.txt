@@ -13,3 +13,6 @@ Day 2(04-08-2024): [Looked up some chat app designs online and set a basic struc
     -Coded Login and Register pages.
     -Set a basic layout of Main Chat Page, with clearly defined spaces for Sidebar, Users and Currently active user chat.
     -Created a Context API for sharing of values throughout the project files (specifically "AuthContext.jsx" file)
+
+Day 3(05-08-2024):
+- coded logic for the Register User functionality that would show error messages if the new user isnt registered properly, displaying messages from the backend to the front end. (Yet to debug it)
