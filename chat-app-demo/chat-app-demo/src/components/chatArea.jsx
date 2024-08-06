@@ -1,7 +1,7 @@
 const ChatArea = () => {
   return (
     <div>
-      <div className=" h-[calc(100vh-227px)]  bg-emerald-950 m-2 p-2 rounded-lg ">
+      <div className=" h-[calc(100vh-227px)]  bg-emerald-950 m-2 p-2 rounded-lg text-white">
         Chat Area
       </div>
     </div>
