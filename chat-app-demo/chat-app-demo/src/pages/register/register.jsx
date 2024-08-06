@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Navbar from "../../components/navbar";
 import { AuthContext } from "../../../../src/context/AuthContext";
-import { Alert } from "react-alert";
+//import { Alert } from "react-alert";
 
 const Register = () => {
   const {
@@ -72,9 +72,9 @@ const Register = () => {
               here
             </p>
           </div>
-          <div className="bg-white rounded-xl">
+          {/* <div className="bg-white rounded-xl">
             {registerError?.error && alert(registerError?.message)}
-          </div>
+          </div>*/}
         </div>
       </div>
     </div>
