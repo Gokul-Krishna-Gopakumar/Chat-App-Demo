@@ -25,3 +25,9 @@ Day 4(06-08-2024):
     -Coded most of the Chat window UI. (Screenshot image here: https://github.com/Gokul-Krishna-Gopakumar/Chat-App-Demo/blob/master/chat-app-demo/chat-app-demo/src/components/Chat%20App%20UI%20v0.1.jpg)
     -Rest of the UI work to be done in "userList.jsx" file, where each active/ongoing chats should be shown. Need to code components for that, but will do it once users are added to the database to test properly.
     -For now, Front-end UI design shall be on hold for a day or two, after considerable Back-end coding and integration of functionalities between front-end and back-end is done (namely, functioning of texts appearing in "Chat Area", functioning of voice and video call, functioning of "send message" button, functioning of login/logout. Also testing of everything mentioned to be completed too.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Day 5(07-08-2024):
+    -Coded functionality for registering a new user, as well as loggin in and logging out of users, leveraging the concept of Context API (AuthContext.jsx)
+    -FrontEnd elements to behave dynamically to be done next.
