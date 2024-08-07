@@ -7,12 +7,21 @@ Day 1(03-08-2024): [Mostly involved me learning backend programming and coding b
 -Coded two Controllers for Registerting a new user and Logging in of existing user.
 -Made Routes for the same to be implemented. 
 -Tested Created Controllers using "Postman app" successfully.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Day 2(04-08-2024): [Looked up some chat app designs online and set a basic structure for Front-End. Colour/theme of the app can change later, maybe. Continuing to work on backend for Login and Register Page ('post' functionalities) until EOD]
 ---Front-End:
     -Coded Login and Register pages.
     -Set a basic layout of Main Chat Page, with clearly defined spaces for Sidebar, Users and Currently active user chat.
     -Created a Context API for sharing of values throughout the project files (specifically "AuthContext.jsx" file)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Day 3(05-08-2024):
 - coded logic for the Register User functionality that would show error messages if the new user isnt registered properly, displaying messages from the backend to the front end. (Yet to debug it)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Day 4(06-08-2024):
+---Front-End:
+    -Coded most of the Chat window UI. (Screenshot image here: https://github.com/Gokul-Krishna-Gopakumar/Chat-App-Demo/blob/master/chat-app-demo/chat-app-demo/src/components/Chat%20App%20UI%20v0.1.jpg)
+    -Rest of the UI work to be done in "userList.jsx" file, where each active/ongoing chats should be shown. Need to code components for that, but will do it once users are added to the database to test properly.
+    -For now, Front-end UI design shall be on hold for a day or two, after considerable Back-end coding and integration of functionalities between front-end and back-end is done (namely, functioning of texts appearing in "Chat Area", functioning of voice and video call, functioning of "send message" button, functioning of login/logout. Also testing of everything mentioned to be completed too.
