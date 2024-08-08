@@ -36,5 +36,7 @@ Day 5(07-08-2024):
 
 Day 6(08-08-2024):
 ---Back-End:
-    -Coded APIs for chat loading/initiation
+    -Created a chat Model.
+    -Coded APIs for chat section loading/initiation.
+    -Created a text Model.
     -Coded APIs for creating new messages and getting all messages from a chat.
