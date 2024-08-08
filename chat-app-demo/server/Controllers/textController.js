@@ -18,6 +18,5 @@ const createText = async (req, res) => {
     res.status(500).json(error);
   }
 };
-//get Messages
 
 module.exports = { createText };
