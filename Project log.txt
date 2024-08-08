@@ -36,4 +36,5 @@ Day 5(07-08-2024):
 
 Day 6(08-08-2024):
 ---Back-End:
-    -Coded APIs for chat loading/initiation, and APIs for creating new messages and getting all messages from a chat.
+    -Coded APIs for chat loading/initiation
+    -Coded APIs for creating new messages and getting all messages from a chat.
