@@ -4,8 +4,11 @@ import SideBar from "../../components/sidebar";
 import UserChat from "../../components/userChat";
 import UserList from "../../components/userList";
 import { ChatContext } from "../../../../src/context/chatContext";
+import { AuthContext } from "../../../../src/context/AuthContext";
 
 const MainChat = () => {
+  const { user } = useContext(AuthContext);
+
   const { userChats, isUserChatsLoading, userChatsError } =
     useContext(ChatContext);
 
