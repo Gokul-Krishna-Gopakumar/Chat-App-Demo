@@ -50,3 +50,10 @@ Day 7(09-08-2024):
     -coded Context API(ChatContext.jsx) for Chats of users in main.jsx
     -coded a custom hook to fetch chats of users, with whom the user is having a chat history
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Day 8(10-08-2024):
+    -Debugged User Registration and Login functionalities.
+    -User can be added and log in and out of the app now.
+    -MAJOR CHANGE: Updated and sorted the file-folder structure and the various bugs and errors that came with doing that. Will add repo of it the next day.
+    -Worked on trying to fetch and create chats in the window (not error free yet.)
