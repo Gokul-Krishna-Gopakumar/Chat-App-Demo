@@ -57,3 +57,13 @@ Day 8(10-08-2024):
     -User can be added and log in and out of the app now.
     -MAJOR CHANGE: Updated and sorted the file-folder structure and the various bugs and errors that came with doing that. Will add repo of it the next day.
     -Worked on trying to fetch and create chats in the window (not error free yet.)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Day 9(11-08-2024):
+    -Added UI elements for showing active/available chats with other registered users. (UserList.jsx)
+    -Added UI elements in "ChatArea.jsx" and "TextArea.jsx.
+    -Message APIs created
+    -Sender and Receiver texts appearing in chat Area are coded and tested. Has certain bugs to be ironed out tomorrow morning.
+
+(Remaining work: adding the delete text functionality, voice/video call button functionality using webrtc, enabling real-time chat updation using socket.io)
+After all of this, app will be hosted on vercel.
